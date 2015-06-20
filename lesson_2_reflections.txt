@@ -6,3 +6,24 @@ How is the staging area different from the working directory and the repository?
 	staging area intermediary spot before updating hub
 What value do you think it offers?
 	can cancel update if bug or other reason
+How can you use the staging area to make sure you have one commit per logical change?
+	git status
+	git diff
+What are some situations when branches would be helpful in keeping your history organized? 
+	r and d
+How would branches help?
+	seperate from working core
+How do the diagrams help you visualize the branch structure?
+	can see forks and how the changes are tracked back
+What is the result of merging two branches together? 
+	bring to parts of the main code together
+Why do we represent it in the diagram the way we do?
+	visual method, easier to see, shows parents for commits
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Auto
+		Quicker
+		Conflict resolution 
+		shows conflict for analysis
+	Manual
+		Slower
+		Can make better decisions on conflicts
