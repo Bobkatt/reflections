@@ -1,0 +1,8 @@
+What happens when you initialize a repository? 
+	creates .git folder
+Why do you need to do it?
+	used for version tracking, history file
+How is the staging area different from the working directory and the repository? 
+	staging area intermediary spot before updating hub
+What value do you think it offers?
+	can cancel update if bug or other reason
